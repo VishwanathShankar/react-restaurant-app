@@ -9,9 +9,11 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Header />
+            
             <Route exact path="/" component={Home} />
             <Route path="/restaurantsearchpage" component={Filter} />
             <Route path="/restaurantdetailspage" component={Details} />
+        
         </BrowserRouter>
     )
 }
