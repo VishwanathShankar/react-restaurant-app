@@ -17,6 +17,12 @@ class Wallpaper extends React.Component {
                 <div className="locationSelector">
                     <select className="locationDropdown" onChange={this.handleChange}>
                         <option value="0">Select</option>
+
+                      {/* Need to populate the data from API's */}
+                      <option value="Bangalore">Bangalore</option>
+                      <option value="Delhi">Delhi</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Chennai">Chennai</option>
                     </select>
                     <input className="restaurantsinput" type="text" placeholder="Search Restaurant" />
                 </div>
